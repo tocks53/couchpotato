@@ -31,7 +31,8 @@ apt-get install -qy python wget unrar git python-lxml
 
 # Install Couchpotato
 mkdir -p /opt/couchpotato
-wget -qO - https://github.com/RuudBurger/CouchPotatoServer/archive/build/2.6.1.tar.gz | tar -C /opt/couchpotato -zx --strip-components 1
+git clone http://gitlab.com/sarakha63/CouchPotatoServer.git /opt/couchpotato
+#wget -qO - https://github.com/RuudBurger/CouchPotatoServer/archive/build/2.6.1.tar.gz | tar -C /opt/couchpotato -zx --strip-components 1
 
 #########################################
 ##                 CLEANUP             ##
