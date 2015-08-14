@@ -30,6 +30,9 @@ RUN chmod +x /etc/service/*/run /etc/my_init.d/*
 #########################################
 
 VOLUME /config
+VOLUME /film
+VOLUME /film2
+VOLUME /film3d
 EXPOSE 5050
 
 #########################################
