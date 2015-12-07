@@ -33,6 +33,7 @@ VOLUME /config
 VOLUME /film
 VOLUME /film2
 VOLUME /film3d
+VOLUME /download
 EXPOSE 5050
 
 #########################################
