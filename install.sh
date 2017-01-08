@@ -39,7 +39,7 @@ git clone http://github.com/tocks53/CouchPotatoServer.git /opt/couchpotato
 #wget -qO - https://github.com/RuudBurger/CouchPotatoServer/archive/build/2.6.1.tar.gz | tar -C /opt/couchpotato -zx --strip-components 1
 
 #########################################
-##                 CLEANUP             ##
+##                 CLEANUP              ##
 #########################################
 
 # Clean APT install files
